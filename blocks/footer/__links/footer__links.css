@@ -1,0 +1,27 @@
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links {
+      justify-self: start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__links {
+      flex-wrap: wrap;
+      justify-self: start;
+      padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+      flex-direction: column;
+      padding-left: 0;
+    }
+}

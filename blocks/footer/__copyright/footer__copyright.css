@@ -1,0 +1,26 @@
+.footer__link:hover {
+    opacity: 0.8;
+    transition: 0.2s linear;
+} /*done*/
+
+.footer__copyright {
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 112%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+      padding-right: 24px;
+      margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+      font-size: 14px;
+      line-height: 14px;
+      width: 100%;
+      margin-left: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.places__title {
+    display: flex;
+    align-self: flex-end;
+    max-width: 460px;
+    font-size: 4.5em;
+    line-height: 106%;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-bottom: 8px;
+    grid-area: title;
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+      font-size: 2.625em;
+      line-height: 110%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {
+      font-size: 2em;
+      line-height: 109%;
+      margin-top: 48px;
+      padding-left: 16px;
+    }
+}

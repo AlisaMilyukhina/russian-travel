@@ -1,0 +1,11 @@
+.footer__links-item {
+    display: block;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links-item {
+      font-size: 24px;
+      line-height: 100%;
+      padding-bottom: 32px;
+    }
+}
