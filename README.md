@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+## Ссылка на проект: https://alisamilyukhina.github.io/russian-travel/
+
 ### Обзор
 * Что это?
 * Figma
