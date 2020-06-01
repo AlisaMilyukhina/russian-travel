@@ -21,6 +21,7 @@
       grid-template-areas: "title"
                            "image"
                            "text";
+      min-width: 320px;
     }
 } 
 

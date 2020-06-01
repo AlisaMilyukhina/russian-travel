@@ -20,16 +20,11 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 756px) {
-  .place__text {
-    margin-left: 16px;
-  }
-}
-
 @media screen and (max-width: 320px) {
     .place__text {
       max-width: 288px;
       margin-left: 16px;
+      margin-right: 16px;
     }
 }
 

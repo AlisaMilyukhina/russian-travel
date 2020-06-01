@@ -7,12 +7,7 @@
     font-weight: 900;
     margin-top: 80px;
     grid-area: title;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .place__title {
-    margin-left: 16px;
-  }
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,12 +15,6 @@
       font-size: 2.625em;
       line-height: 110%;
     }
-}
-
-@media screen and (min-width: 321px) and (max-width: 756px) {
-  .place__title {
-    margin-left: 16px;
-  }
 }
 
 @media screen and (max-width: 320px) {
