@@ -6,20 +6,27 @@
     max-width: 984px;
 }
 
-@media (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .places {
-    padding: 6px 48px 0;
+    padding: 0 48px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .places {
-    padding: 0 24px 0;
+    padding: 0 24px 0 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 321px) {
   .places {
-    padding: 0;
+    max-width: 321px;
+    padding: 0 10px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin: auto;
+  }
+} */

@@ -11,6 +11,7 @@
 @media screen and (max-width: 1024px) {
     .place {
       column-gap: 32px;
+      margin: 0 24px 0 24px;
     }
 }
 
@@ -22,8 +23,18 @@
                            "image"
                            "text";
       min-width: 320px;
+      margin: auto;
+      justify-content: center;
     }
 } 
+
+@media screen and (min-width: 321px) and (max-width: 700px){
+    .place {
+      max-width: 717px;
+      min-width: 289px;
+    
+    }
+}
 
 @media screen and (max-width: 320px) {
     .place {
